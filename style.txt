@@ -1,0 +1,135 @@
+Directory       ctermfg=51 ctermbg=16 guifg=#00ffff guibg=#f8f8f8
+ErrorMsg        ctermfg=231 ctermbg=160 guifg=#ffffff guibg=#f8f8f8
+IncSearch       cterm=reverse ctermbg=16 gui=reverse guibg=#f8f8f8
+Search          ctermfg=16 ctermbg=226 guifg=#000000 guibg=#f8f8f8
+StatusLine      cterm=bold ctermfg=16 ctermbg=51 gui=bold guifg=#000000 guibg=#f8f8f8
+StatusLineNC    ctermfg=16 ctermbg=44 guifg=#000000 guibg=#f8f8f8
+VertSplit       ctermfg=16 ctermbg=44 guifg=#000000 guibg=#f8f8f8
+Visual          ctermfg=16 ctermbg=145 guifg=#000000 guibg=#f8f8f8
+WildMenu        ctermfg=16 ctermbg=226 guifg=#000000 guibg=#f8f8f8
+Folded          ctermfg=51 ctermbg=59 guifg=#00ffff guibg=#f8f8f8
+DiffAdd         ctermfg=231 ctermbg=65 guifg=#ffffff guibg=#f8f8f8
+DiffChange      ctermfg=231 ctermbg=67 guifg=#ffffff guibg=#f8f8f8
+DiffDelete      ctermfg=231 ctermbg=133 guifg=#ffffff guibg=#f8f8f8
+DiffText        ctermfg=16 ctermbg=251 guifg=#000000 guibg=#f8f8f8
+Pmenu           ctermfg=231 ctermbg=238 guifg=#ffffff guibg=#f8f8f8
+PmenuSel        ctermfg=16 ctermbg=44 guifg=#000000 guibg=#f8f8f8
+PmenuMatch      cterm=bold ctermfg=201 ctermbg=238 gui=bold guifg=#ff00ff guibg=#f8f8f8
+PmenuMatchSel   cterm=bold ctermfg=201 ctermbg=44 gui=bold guifg=#ff00ff guibg=#f8f8f8
+PmenuSbar       ctermbg=250 guibg=#f8f8f8
+PmenuThumb      ctermbg=231 guibg=#f8f8f8
+TabLine         ctermfg=16 ctermbg=30 guifg=#000000 guibg=#f8f8f8
+TabLineSel      cterm=bold ctermfg=51 ctermbg=16 gui=bold guifg=#00ffff guibg=#f8f8f8
+TabLineFill     cterm=reverse ctermbg=16 gui=reverse guibg=#f8f8f8
+CursorColumn    ctermbg=237 guibg=#f8f8f8
+CursorLine      ctermbg=237 guibg=#f8f8f8
+ColorColumn     ctermbg=160 guibg=#f8f8f8
+QuickFixLine    ctermfg=231 ctermbg=29 guifg=#ffffff guibg=#f8f8f8
+Cursor          ctermfg=16 ctermbg=51 guifg=#000000 guibg=#f8f8f8
+StatusLineTerm  cterm=bold ctermfg=0 ctermbg=121 gui=bold guifg=Black guibg=#f8f8f8
+StatusLineTermNC  ctermfg=0 ctermbg=121 guifg=Black guibg=#f8f8f8
+CursorIM        ctermbg=51 guibg=#f8f8f8
+Directory       ctermfg=51 ctermbg=16 guifg=#00ffff guibg=#f8f8f8
+ErrorMsg        ctermfg=231 ctermbg=160 guifg=#ffffff guibg=#f8f8f8
+IncSearch       cterm=reverse ctermbg=16 gui=reverse guibg=#f8f8f8
+Search          ctermfg=16 ctermbg=226 guifg=#000000 guibg=#f8f8f8
+StatusLine      cterm=bold ctermfg=16 ctermbg=51 gui=bold guifg=#000000 guibg=#f8f8f8
+StatusLineNC    ctermfg=16 ctermbg=44 guifg=#000000 guibg=#f8f8f8
+Visual          ctermfg=16 ctermbg=145 guifg=#000000 guibg=#f8f8f8
+WildMenu        ctermfg=16 ctermbg=226 guifg=#000000 guibg=#f8f8f8
+Folded          ctermfg=51 ctermbg=59 guifg=#00ffff guibg=#f8f8f8
+DiffAdd         ctermfg=231 ctermbg=65 guifg=#ffffff guibg=#f8f8f8
+DiffChange      ctermfg=231 ctermbg=67 guifg=#ffffff guibg=#f8f8f8
+DiffDelete      ctermfg=231 ctermbg=133 guifg=#ffffff guibg=#f8f8f8
+DiffText        ctermfg=16 ctermbg=251 guifg=#000000 guibg=#f8f8f8
+Pmenu           ctermfg=231 ctermbg=238 guifg=#ffffff guibg=#f8f8f8
+PmenuSel        ctermfg=16 ctermbg=44 guifg=#000000 guibg=#f8f8f8
+PmenuMatch      cterm=bold ctermfg=201 ctermbg=238 gui=bold guifg=#ff00ff guibg=#f8f8f8
+PmenuMatchSel   cterm=bold ctermfg=201 ctermbg=44 gui=bold guifg=#ff00ff guibg=#f8f8f8
+PmenuSbar       ctermbg=250 guibg=#f8f8f8
+PmenuThumb      ctermbg=231 guibg=#f8f8f8
+TabLine         ctermfg=16 ctermbg=30 guifg=#000000 guibg=#f8f8f8
+TabLineSel      cterm=bold ctermfg=51 ctermbg=16 gui=bold guifg=#00ffff guibg=#f8f8f8
+TabLineFill     cterm=reverse ctermbg=16 gui=reverse guibg=#f8f8f8
+CursorColumn    ctermbg=237 guibg=#f8f8f8
+CursorLine      ctermbg=237 guibg=#f8f8f8
+ColorColumn     ctermbg=160 guibg=#f8f8f8
+QuickFixLine    ctermfg=231 ctermbg=29 guifg=#ffffff guibg=#f8f8f8
+Cursor          ctermfg=16 ctermbg=51 guifg=#000000 guibg=#f8f8f8
+StatusLineTerm  cterm=bold ctermfg=0 ctermbg=121 gui=bold guifg=Black guibg=#f8f8f8
+StatusLineTermNC  ctermfg=0 ctermbg=121 guifg=Black guibg=#f8f8f8
+CursorIM        ctermbg=51 guibg=#f8f8f8
+VisualNOS       cterm=underline ctermbg=16 gui=bold,underline guibg=#f8f8f8
+@markup.heading.1.delimiter.vimdoc  cterm=underdouble,nocombine gui=underdouble,nocombine guifg=bg guibg=#f8f8f8 guisp=fg
+@markup.heading.2.delimiter.vimdoc  cterm=underline,nocombine gui=underline,nocombine guifg=bg guibg=#f8f8f8 guisp=fg
+FloatShadow     guibg=#f8f8f8 blend=80
+FloatShadowThrough  guibg=#f8f8f8 blend=100
+MatchParen      ctermbg=30 guibg=#f8f8f8
+RedrawDebugClear  ctermbg=11 guibg=#f8f8f8
+RedrawDebugComposed  ctermbg=10 guibg=#f8f8f8
+RedrawDebugRecompose  ctermbg=9 guibg=#f8f8f8
+Error           ctermfg=231 ctermbg=196 guifg=#ffffff guibg=#f8f8f8
+NvimInternalError  ctermfg=9 ctermbg=9 guifg=Red guibg=#f8f8f8
+NvimTreeWindowPicker  ctermfg=15 ctermbg=4 gui=bold guifg=#ededed guibg=#f8f8f8
+BufferLineBufferSelected  cterm=bold,italic gui=bold,italic guifg=#00ffff guibg=#f8f8f8
+BufferLineBufferVisible  cterm=bold,italic gui=bold,italic guifg=#00b2b2 guibg=#f8f8f8
+BufferLineCloseButtonSelected  guifg=#00ffff guibg=#f8f8f8
+BufferLineCloseButtonVisible  guifg=#00b2b2 guibg=#f8f8f8
+BufferLineCloseButton  guifg=#80a0ff guibg=#f8f8f8
+BufferLineTabClose  guifg=#80a0ff guibg=#f8f8f8
+BufferLineTabSelected  cterm=bold gui=bold guifg=#00ffff guibg=#f8f8f8
+BufferLineGroupLabel  guifg=#000000 guibg=#f8f8f8
+BufferLineGroupSeparator  guifg=#80a0ff guibg=#f8f8f8
+BufferLineTruncMarker  guifg=#80a0ff guibg=#f8f8f8
+BufferLineInfo  guifg=#80a0ff guibg=#f8f8f8 guisp=#add8e6
+BufferLineNumbers  guifg=#80a0ff guibg=#f8f8f8
+BufferLineDiagnostic  guifg=#6078bf guibg=#f8f8f8
+BufferLineHint  guifg=#80a0ff guibg=#f8f8f8 guisp=#d3d3d3
+BufferLineModified  guifg=#ff00ff guibg=#f8f8f8
+BufferLineBuffer  guifg=#80a0ff guibg=#f8f8f8
+BufferLineTab   guifg=#80a0ff guibg=#f8f8f8
+BufferLineBackground  guifg=#80a0ff guibg=#f8f8f8
+BufferLinePick  cterm=bold,italic gui=bold,italic guifg=#ff0000 guibg=#f8f8f8
+BufferLineOffsetSeparator  guifg=#000000 guibg=#f8f8f8
+BufferLineIndicatorVisible  guifg=#000000 guibg=#f8f8f8
+BufferLineError  guifg=#80a0ff guibg=#f8f8f8 guisp=#ff0000
+BufferLinePickVisible  cterm=bold,italic gui=bold,italic guifg=#ff0000 guibg=#f8f8f8
+BufferLinePickSelected  cterm=bold,italic gui=bold,italic guifg=#ff0000 guibg=#f8f8f8
+BufferLineSeparator  guifg=#000000 guibg=#f8f8f8
+BufferLineFill  guifg=#80a0ff guibg=#f8f8f8
+BufferLineIndicatorSelected  guifg=#00ffff guibg=#f8f8f8
+BufferLineTabSeparatorSelected  guifg=#000000 guibg=#f8f8f8
+BufferLineTabSeparator  guifg=#000000 guibg=#f8f8f8
+BufferLineSeparatorVisible  guifg=#000000 guibg=#f8f8f8
+BufferLineSeparatorSelected  guifg=#000000 guibg=#f8f8f8
+BufferLineDuplicate  cterm=italic gui=italic guifg=#7998f2 guibg=#f8f8f8
+BufferLineDuplicateVisible  cterm=italic gui=italic guifg=#7998f2 guibg=#f8f8f8
+BufferLineDuplicateSelected  cterm=italic gui=italic guifg=#7998f2 guibg=#f8f8f8
+BufferLineModifiedSelected  guifg=#ff00ff guibg=#f8f8f8
+BufferLineModifiedVisible  guifg=#ff00ff guibg=#f8f8f8
+BufferLineErrorDiagnosticSelected  cterm=bold,italic gui=bold,italic guifg=#bf0000 guibg=#f8f8f8 guisp=#bf0000
+BufferLineErrorDiagnosticVisible  guifg=#6078bf guibg=#f8f8f8
+BufferLineErrorDiagnostic  guifg=#6078bf guibg=#f8f8f8 guisp=#bf0000
+BufferLineErrorSelected  cterm=bold,italic gui=bold,italic guifg=#ff0000 guibg=#f8f8f8 guisp=#ff0000
+BufferLineErrorVisible  cterm=bold,italic gui=bold,italic guifg=#00b2b2 guibg=#f8f8f8
+BufferLineWarningDiagnosticSelected  cterm=bold,italic gui=bold,italic guifg=#bf7b00 guibg=#f8f8f8 guisp=#bf7b00
+BufferLineWarningDiagnosticVisible  guifg=#6078bf guibg=#f8f8f8
+BufferLineWarningDiagnostic  guifg=#6078bf guibg=#f8f8f8 guisp=#bf7b00
+BufferLineWarningSelected  cterm=bold,italic gui=bold,italic guifg=#ffa500 guibg=#f8f8f8 guisp=#ffa500
+BufferLineWarningVisible  cterm=bold,italic gui=bold,italic guifg=#00b2b2 guibg=#f8f8f8
+BufferLineInfoDiagnosticSelected  cterm=bold,italic gui=bold,italic guifg=#81a2ac guibg=#f8f8f8 guisp=#81a2ac
+BufferLineInfoDiagnosticVisible  guifg=#6078bf guibg=#f8f8f8
+BufferLineInfoDiagnostic  guifg=#6078bf guibg=#f8f8f8 guisp=#81a2ac
+BufferLineInfoSelected  cterm=bold,italic gui=bold,italic guifg=#add8e6 guibg=#f8f8f8 guisp=#add8e6
+BufferLineInfoVisible  cterm=bold,italic gui=bold,italic guifg=#00b2b2 guibg=#f8f8f8
+BufferLineHintDiagnosticSelected  cterm=bold,italic gui=bold,italic guifg=#9e9e9e guibg=#f8f8f8 guisp=#9e9e9e
+BufferLineHintDiagnosticVisible  guifg=#6078bf guibg=#f8f8f8
+BufferLineHintDiagnostic  guifg=#6078bf guibg=#f8f8f8 guisp=#9e9e9e
+BufferLineHintSelected  cterm=bold,italic gui=bold,italic guifg=#d3d3d3 guibg=#f8f8f8 guisp=#d3d3d3
+BufferLineHintVisible  cterm=bold,italic gui=bold,italic guifg=#00b2b2 guibg=#f8f8f8
+BufferLineDiagnosticSelected  cterm=bold,italic gui=bold,italic guifg=#00bfbf guibg=#f8f8f8
+BufferLineDiagnosticVisible  guifg=#6078bf guibg=#f8f8f8
+BufferLineNumbersVisible  guifg=#00b2b2 guibg=#f8f8f8
+BufferLineNumbersSelected  cterm=bold,italic gui=bold,italic guifg=#00ffff guibg=#f8f8f8
+BufferLineWarning  guifg=#80a0ff guibg=#f8f8f8 guisp=#ffa500
+Terminal        ctermfg=51 ctermbg=16 guifg=#00ffff guibg=#f8f8f8
