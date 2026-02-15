@@ -1,4 +1,4 @@
-require("khnzh")
 require("config.lazy")
-vim.o.clipboard = "unnamedplus"
-vim.opt.ignorecase = true
+require("config.opts")
+require("config.keys")
+require("config.lsp")
