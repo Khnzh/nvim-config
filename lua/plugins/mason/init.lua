@@ -1,6 +1,5 @@
-  return {
-    "williamboman/mason.nvim",
-    build = ":MasonUpdate",
-    config = true,
-  }
-
+return {
+	"williamboman/mason.nvim",
+	build = ":MasonUpdate",
+	config = true,
+}

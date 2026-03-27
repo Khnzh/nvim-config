@@ -8,6 +8,13 @@ require("conform").setup({
 		-- Conform will run the first available formatter
 		javascript = { "prettierd", "prettier", stop_after_first = true },
 		go = { "goimports" },
+		typescript = { "prettierd", "prettier", stop_after_first = true },
+		javascriptreact = { "prettierd", "prettier", stop_after_first = true },
+		typescriptreact = { "prettierd", "prettier", stop_after_first = true },
+		json = { "prettierd", "prettier", stop_after_first = true },
+		go = { "goimports" },
+		scss = { "prettier" },
+		css = { "prettier" },
 	},
 })
 

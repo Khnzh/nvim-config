@@ -6,6 +6,8 @@ vim.lsp.enable("golangci_lint_ls")
 
 vim.lsp.enable("gopls")
 
+vim.lsp.enable("pylsp")
+
 vim.lsp.config("yamlls", {
 	settings = {
 		yaml = {
