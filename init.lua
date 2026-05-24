@@ -1,3 +1,15 @@
+local env_path = vim.fn.stdpath("config") .. "/.env"
+local f = io.open(env_path, "r")
+if f then
+	for line in f:lines() do
+		local key, value = line:match("^([%w_]+)=(.+)$")
+		if key and value then
+			vim.env[key] = value
+		end
+	end
+	f:close()
+end
+
 require("config.lazy")
 require("config.opts")
 require("config.keys")
