@@ -1,4 +1,4 @@
-function ShowInBuffer(title, content)
+local function ShowInBuffer(title, content)
 	local buf = vim.api.nvim_create_buf(false, true)
 	local width = math.floor(vim.o.columns * 0.8)
 	local height = math.floor(vim.o.lines * 0.8)
@@ -28,7 +28,7 @@ function ShowInBuffer(title, content)
 	table.insert(lines, 2, "")
 
 	vim.api.nvim_buf_set_lines(buf, 0, -1, false, lines)
-	vim.api.nvim_buf_set_option(buf, "modifiable", false)
+	vim.api.nvim_set_option_value("modifiable", false, { buf = buf })
 
 	-- Add keymaps to close
 	vim.keymap.set("n", "q", "<cmd>q!<CR>", { buffer = buf })
