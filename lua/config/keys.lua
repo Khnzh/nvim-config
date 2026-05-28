@@ -1,6 +1,6 @@
--- CENTERING WHEN JUMPING TO OCCURENCES
-vim.api.nvim_set_keymap("n", "n", "nzz", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "N", "Nzz", { noremap = true, silent = true })
+-- CENTERING WHEN JUMPING TO OCCURENCES (n always forward, N always backward)
+vim.keymap.set("n", "n", "'Nn'[v:searchforward] .. 'zz'", { expr = true, noremap = true, silent = true })
+vim.keymap.set("n", "N", "'nN'[v:searchforward] .. 'zz'", { expr = true, noremap = true, silent = true })
 -- DELETING ALL ROWS WITH SPECIFIC OCCURENCE
 vim.keymap.set("n", "<Leader>dd", ":g/<C-r><C-w>/d<CR>")
 --
