@@ -18,6 +18,3 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
 	{ import = "plugins" },
 })
-
--- Basic settings
-vim.opt.completeopt = { "menu", "menuone", "noselect" }
