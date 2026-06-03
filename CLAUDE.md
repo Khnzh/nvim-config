@@ -31,11 +31,11 @@ Plugin declarations live in `lua/plugins/<name>/init.lua` — these are lazy.nvi
 | nvim-dbee | `lua/plugins/nvim-dbee/` | inline `config = function()` |
 | buffer-picker | `lua/plugins/buffer-picker/` | `after/plugin/buffer-picker.lua` |
 | vim-tmux-navigator | `lua/plugins/vim-tmux-navigator/` | inline |
-| mason / mason-lspconfig | `lua/plugins/mason/`, `mason-lspconfig/` | none (lsp handled via vim.lsp.enable) |
+| mason / mason-lspconfig | `lua/plugins/mason/`, `mason-lspconfig/` | inline `config` in mason (auto-installs formatters/linters) |
 
 ## LSP Setup
 
-Uses the Neovim 0.11+ native `vim.lsp.enable()` / `vim.lsp.config()` API — **not** `lspconfig` setup handlers or mason-lspconfig's `handlers`. Servers must be installed separately (via Mason `:MasonInstall` or system packages). Active servers: `ts_ls`, `lua_ls`, `golangci_lint_ls`, `gopls`, `pylsp`, `yamlls`, `sqls`.
+Uses the Neovim 0.11+ native `vim.lsp.enable()` / `vim.lsp.config()` API — **not** `lspconfig` setup handlers or mason-lspconfig's `handlers`. Servers are auto-installed via `mason-lspconfig` `ensure_installed`. Active servers: `ts_ls`, `lua_ls`, `golangci_lint_ls`, `gopls`, `pylsp`, `yamlls`, `sqls`.
 
 ## SQL / Database
 

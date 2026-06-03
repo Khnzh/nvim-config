@@ -1,3 +1,16 @@
+-- Toggle virtualedit=block in visual block mode; otherwise normal v behavior
+vim.keymap.set("x", "v", function()
+	if vim.fn.mode() == "\22" then
+		if vim.o.virtualedit:find("block") then
+			vim.o.virtualedit = ""
+		else
+			vim.o.virtualedit = "block"
+		end
+	else
+		vim.api.nvim_feedkeys("v", "n", false)
+	end
+end, { desc = "Toggle virtualedit=block in visual block mode" })
+
 -- CENTERING WHEN JUMPING TO OCCURENCES (n always forward, N always backward)
 vim.keymap.set("n", "n", "'Nn'[v:searchforward] .. 'zz'", { expr = true, noremap = true, silent = true })
 vim.keymap.set("n", "N", "'nN'[v:searchforward] .. 'zz'", { expr = true, noremap = true, silent = true })

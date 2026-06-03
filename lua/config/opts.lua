@@ -1,3 +1,9 @@
+-- Inherit full shell PATH so Mason can find npm, go, etc. installed via version managers
+local shell_path = vim.fn.system("$SHELL -l -c 'echo $PATH' 2>/dev/null"):gsub("%s+$", "")
+if shell_path ~= "" then
+	vim.env.PATH = shell_path
+end
+
 -- DISABLE BUILT-IN SQL OMNICOMPLETION (causes dbext errors)
 vim.g.omni_sql_no_default_maps = 1
 
@@ -18,14 +24,18 @@ local function select_db_connection(callback)
 		if choice and choice ~= "None" then
 			vim.g.db = db_connections[choice]
 		end
-		if callback then callback() end
+		if callback then
+			callback()
+		end
 	end)
 end
 
 vim.api.nvim_create_autocmd("FileType", {
 	pattern = "sql",
 	callback = function()
-		if vim.bo.buftype ~= "" then return end
+		if vim.bo.buftype ~= "" then
+			return
+		end
 		if vim.g.db then
 			vim.b.db = vim.g.db
 		else
@@ -56,3 +66,4 @@ vim.opt.autoindent = true
 vim.api.nvim_set_option_value("relativenumber", true, {})
 -- SOME AUTOCOMPLETE OPTS
 vim.opt.completeopt = { "menu", "menuone", "noselect" }
+-- vim.opt.virtualedit = "block"
